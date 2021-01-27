@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+.Noto-Serif {
+    font-family: 'Noto Serif';
+}
+
+body {
+    background-color: #595959;
+}
+img {
+    width: 100%;
+}
+/* estilos header */
+.cuerpo-header {
+    background: linear-gradient(45deg, #242424, #494949);
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 90vh;
+    border-radius: 0 0 6rem 0;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
