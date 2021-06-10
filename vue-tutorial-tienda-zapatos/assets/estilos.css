@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: #363636;
+    --color-vue: linear-gradient(45deg,#7FCC5D, #45B695);
+}
+* {
+    box-sizing: border-box;
+}
+nav {
+    background: var(--color-vue);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+dl {
+    margin-left: 2rem;
+}
+dl dt {
+    display: block;
+    width: 100%;
+}
+dl dt + dt {
+    margin-top: .5rem;
+}
+button.color {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    border-radius: 50%;
+    margin-right: .25rem;
+    background-color: #E1E1E1;
+}
+button:disabled {
+    background-color: #909090 !important;
+}
+.negro {
+    background-color: #3F3F3F !important;
+}
+.verde {
+    background-color: #45B695 !important;
+}
+section {
+    display: flex;
+    width: 65%;
+    gap: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+aside {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    text-align: right;
+}
+section > div:first-child {
+    width: 45%;
+}
+section > div:last-child {
+    flex-grow: 1;
+}
+.producto {
+    text-align: center;
+    border: 1px solid #C0C0C0;
+}
+aside span {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #C0C0C0;
+    margin-left: 1rem;
+}
+aside i {
+    margin-right: 1rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    vertical-align: middle;
+}
+.boton-agregar,
+.boton-quitar,
+.boton {
+    display: inline-block;
+    padding: .75rem 1rem;
+    border: 0;
+    background-color: #33CA53;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.boton-agregar:active,
+.boton:active {
+    background-color: #2AA744;
+}
+.boton-quitar {
+    background-color: #F87649;
+}
+.boton-quitar:active {
+    background-color: #D55D34;
+}
+.datos > div {
+    margin-top: 1rem;
+}
+button .icono {
+    margin-right: .5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mensaje {
+    display: block;
+    padding: 18px 2rem;
+    background: var(--color-vue);
+    color: #fff;
+    width: 300px;
+    position: absolute;
+    right: calc(50% - 150px);
+    bottom: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
