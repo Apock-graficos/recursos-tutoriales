@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs - Apock tutoriales</title>
+    <link rel="stylesheet" type="text/css" href="assets/estilos.css">
+    <link rel="stylesheet" type="text/css" href="assets/iconos.css">
+</head>
+<body>
+
+<!-- contenedor principal tabs -->
+<div class="contenedor-tabs-main vertical defecto" id="tabs">
+    <div class="botones-tabs">
+        <!-- botones -->
+        <button class="tab-btn activo" data-id="tab-1">
+            <i class="icon-home"></i>
+            <span class="tab-titulo">Inicio</span>
+        </button>
+        <button class="tab-btn" data-id="tab-2">
+            <i class="icon-briefcase"></i>
+            <span class="tab-titulo">Portafolios</span>
+        </button>
+        <button class="tab-btn" data-id="tab-3">
+            <i class="icon-phone"></i>
+            <span class="tab-titulo">Contacto</span>
+        </button>
+        <button class="tab-btn" data-id="tab-4">
+            <i class="icon-users"></i>
+            <span class="tab-titulo">Nosotros</span>
+        </button>
+    </div>
+    <div class="contenedor-tabs">
+        <!-- contenedores tabs -->
+        <div class="tab-contenido activo" id="tab-1">
+            <div class="animacion">
+                <h1>Inicio</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur, velit molestias incidunt sunt fugit eligendi officiis distinctio deleniti pariatur, molestiae assumenda quod? Pariatur iure, facere blanditiis deleniti, temporibus quaerat?</p>
+            </div>
+        </div>
+        <div class="tab-contenido " id="tab-2">
+            <div class="animacion">
+                <h1>Portafolios</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur, velit molestias incidunt sunt fugit eligendi officiis distinctio deleniti pariatur, molestiae assumenda quod? Pariatur iure, facere blanditiis deleniti, temporibus quaerat?</p>
+            </div>
+        </div>
+        <div class="tab-contenido" id="tab-3">
+            <div class="animacion">
+                <h1>Contacto</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur, velit molestias incidunt sunt fugit eligendi officiis distinctio deleniti pariatur, molestiae assumenda quod? Pariatur iure, facere blanditiis deleniti, temporibus quaerat?</p>
+            </div>
+        </div>
+        <div class="tab-contenido" id="tab-4">
+            <div class="animacion">
+                <h1>Nosotros</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur, velit molestias incidunt sunt fugit eligendi officiis distinctio deleniti pariatur, molestiae assumenda quod? Pariatur iure, facere blanditiis deleniti, temporibus quaerat?</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contenedor-tabs-main horizontal defecto" id="queso">
+    <div class="botones-tabs">
+        <!-- botones -->
+        <button class="tab-btn activo" data-id="tab-1">
+            <i class="icon-home"></i>
+            <span class="tab-titulo">Inicio</span>
+        </button>
+        <button class="tab-btn" data-id="tab-2">
+            <i class="icon-briefcase"></i>
+            <span class="tab-titulo">Portafolios</span>
+        </button>
+        <button class="tab-btn" data-id="tab-3">
+            <i class="icon-phone"></i>
+            <span class="tab-titulo">Contacto</span>
+        </button>
+        <button class="tab-btn" data-id="tab-4">
+            <i class="icon-users"></i>
+            <span class="tab-titulo">Nosotros</span>
+        </button>
+    </div>
+    <div class="contenedor-tabs">
+        <!-- contenedores tabs -->
+        <div class="tab-contenido activo" id="tab-1">
+            <div class="animacion">
+                <h1>Inicio</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur, velit molestias incidunt sunt fugit eligendi officiis distinctio deleniti pariatur, molestiae assumenda quod? Pariatur iure, facere blanditiis deleniti, temporibus quaerat?</p>
+            </div>
+        </div>
+        <div class="tab-contenido " id="tab-2">
+            <div class="animacion">
+                <h1>Portafolios</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur, velit molestias incidunt sunt fugit eligendi officiis distinctio deleniti pariatur, molestiae assumenda quod? Pariatur iure, facere blanditiis deleniti, temporibus quaerat?</p>
+            </div>
+        </div>
+        <div class="tab-contenido" id="tab-3">
+            <div class="animacion">
+                <h1>Contacto</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur, velit molestias incidunt sunt fugit eligendi officiis distinctio deleniti pariatur, molestiae assumenda quod? Pariatur iure, facere blanditiis deleniti, temporibus quaerat?</p>
+            </div>
+        </div>
+        <div class="tab-contenido" id="tab-4">
+            <div class="animacion">
+                <h1>Nosotros</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta consectetur, velit molestias incidunt sunt fugit eligendi officiis distinctio deleniti pariatur, molestiae assumenda quod? Pariatur iure, facere blanditiis deleniti, temporibus quaerat?</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="assets/jscript-tabs.js"></script>
+<script>
+tabs('tabs');
+tabs('queso');
+</script>
+</body>
+</html>
